@@ -1,0 +1,50 @@
+baseurl = "localhost:1313"
+languageCode = "en-us"
+title = "Cotiviti Tech Blog"
+
+[permalinks]
+  post = "/:year/:month/:slug/"
+  page = "/:slug"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[params]
+  keywords = ["default", "keywords", "if", "no", "front", "matter"]
+  description = "A description that will appear as a default if front matter does not exist"
+
+[[menu.header]]
+  name = "Home"
+  weight = 1
+  url = "/"
+
+[[menu.header]]
+  name = "Projects"
+  weight = 2
+  url = "/projects/"
+
+[[menu.header]]
+  name = "GitHub"
+  weight = 3
+  url = "/github/"
+
+[[menu.footer]]
+  name = "Who is Cotiviti?"
+  weight = 1
+  url = "/who-is-cotiviti/"
+
+[[menu.footer]]
+  name = "Careers"
+  weight = 2
+  url = "/careers/"
+
+[[menu.footer]]
+  name = "Contact Us"
+  weight = 3
+  url = "/contact/"
+
+[[menu.footer]]
+  name = "Site Map"
+  weight = 3
+  url = "/site-map/"
