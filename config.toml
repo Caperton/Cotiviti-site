@@ -14,25 +14,32 @@ title = "Cotiviti Tech Blog"
   keywords = ["default", "keywords", "if", "no", "front", "matter"]
   description = "A description that will appear as a default if front matter does not exist"
 
+## Header menu
 [[menu.header]]
-  name = "Home"
+  name = "Who We Are"
   weight = 1
   url = "/"
 
 [[menu.header]]
-  name = "Projects"
+  name = "What We Do"
   weight = 2
-  url = "/projects/"
+  url = "/what-we-do/"
 
 [[menu.header]]
-  name = "GitHub"
+  name = "Open Source"
   weight = 3
-  url = "/github/"
+  url = "/open-source/"
 
+[[menu.header]]
+  name = "Blog"
+  weight = 4
+  url = "/blog/"
+
+## Footer menu
 [[menu.footer]]
-  name = "Who is Cotiviti?"
+  name = "Who Is Cotiviti?"
   weight = 1
-  url = "/who-is-cotiviti/"
+  url = "/cotiviti/"
 
 [[menu.footer]]
   name = "Careers"
@@ -48,3 +55,63 @@ title = "Cotiviti Tech Blog"
   name = "Site Map"
   weight = 3
   url = "/site-map/"
+
+## Navigation
+[params.navigation]
+  brand = "Cotiviti Labs"
+  about = "Who We Are"
+  work = "What We Do"
+  portfolio = "Open Source"
+  contact = "Blog"
+
+## Hero section
+[params.hero]
+  title = "Cotiviti Labs"
+  subtitle = "Morbi ornare elit et vulputate ullamcorper. In vestibulum congue malesuada. Vestibu lum pulvinar bibendum viverra. Curabitur ornare neque ut diam scelerisque gravida. Proin iaculis mattis lorem, vel pellentesque ligula dictum vitae. Aenean cursus dictum lacus at maximus. Quisque molestie, erat sit amet fringilla aliquet, nibh dui tincidunt."
+  buttonText = "Button"
+
+## Products section
+[params.products]
+      enable = true
+
+  [[params.products.item]]
+    img = "Deliver8r.png"
+    name = "Deliver8r"
+    description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed sagittis orci, nec ullamcorper arcu. Nulla facilisi. Aliquam non est varius diam porta malesuada nec et lorem. Sed porta a risus sit amet ornare. Nulla conv allis a nisi ac dignissim. Vivamus risus augue,luctus eget scelerisque sit amet, dapibus sed nulla."
+
+  [[params.products.item]]
+    img = "Meredith.png"
+    name = "Meredith"
+    description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed sagittis orci, nec ullamcorper arcu. Nulla facilisi. Aliquam non est varius diam porta malesuada nec et lorem. Sed porta a risus sit amet ornare. Nulla conv allis a nisi ac dignissim. Vivamus risus augue,luctus eget scelerisque sit amet, dapibus sed nulla."
+
+  [[params.products.item]]
+    img = "Meredith.png"
+    name = "Clean Fuel"
+    description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed sagittis orci, nec ullamcorper arcu. Nulla facilisi. Aliquam non est varius diam porta malesuada nec et lorem. Sed porta a risus sit amet ornare. Nulla conv allis a nisi ac dignissim. Vivamus risus augue,luctus eget scelerisque sit amet, dapibus sed nulla."
+
+## Who We Are section
+[params.about]
+     enable = true
+ title = "Who We Are"
+ subtitle = "Lorem ipsum dolor sit amet consectetur."
+ description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam molestie aliquam turpis, ac varius tellus dapibus ut. Quisque tellus erat, efficitur non eleifend vel, porttitor ac ex. Quisque eget pharetra orci. Aliquam elementum blandit ullamcorper. Aliquam dapibus porta auctor. Etiam elementum eu massa ut auctor. In congue consequat erat, quis vehicula dolor luctus vitae. Nulla consectetur sapien at arcu pretium commodo. Nulla facilisi. In pretium dignissim neque rhoncus rhoncus. Ut tortor augue, tristique nec dignissim ac, blandit at ligula. Ut sollicitudin, tortor ut tincidunt mattis, justo sem rhoncus nisl, a finibus sapien leo ac augue. Pellentesque ac tempor sem. Integer ultricies blandit diam ut dapibus. Mauris ornare eleifend lectus vel elementum. Nam volutpat nec nibh pulvinar tincidunt. Ut pellentesque risus metus, vel dapibus leo eleifend nec. Sed gravida erat ut congue venenatis. Curabitur in nisl sapien. Mauris rhoncus porta augue, ut hendrerit nisl. Nunc tristique semper dapibus. Fusce tincidunt non tortor ut ultrices. Mauris ultrices, urna sed cursus facilisis, felis arcu pulvinar dolor, in vestibulum est est quis est. Vivamus ullamcorper mauris augue, vitae porttitor risus blandit et. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+ ## What We Do section
+ [params.work]
+      enable = true
+  title = "What We Do"
+  subtitle = "Lorem ipsum dolor sit amet consectetur."
+  description = "Cras elementum, velit id porta mollis, metus odio volutpat mauris, et placerat purus eros et quam. Vestibulum diam nibh, faucibus sit amet magna vel, sollicitudin euismod est. Maecenas ultricies erat eget massa blandit blandit. Duis elementum posuere maximus. Praesent vestibulum lectus non libero vestibulum gravida. Quisque non dolor quis urna congue tristique. Fusce tempor tempus eros, ut imperdiet leo porta ut. Aenean sed risus lectus. Donec felis massa, pretium in interdum quis, lacinia sed eros. Etiam faucibus turpis in pretium vestibulum. Vestibulum placerat, metus a facilisis rutrum, diam odio sagittis lorem, interdum scelerisque purus mauris quis erat. Nunc nisi lectus, laoreet vitae metus ut, euismod fermentum tortor. Nulla vehicula ultricies orci, pharetra tincidunt mi. Etiam vel nulla sit amet tortor facilisis tempus. Nulla sagittis orci sed velit molestie tincidunt. Pellentesque ut laoreet velit. Nam finibus enim velit, a egestas diam convallis eu. Nullam pharetra ac dolor ut tincidunt. Quisque dictum elementum sapien ut luctus. Vivamus in mattis est, non faucibus eros. Quisque vitae gravida neque. Donec dictum eros quis ligula pellentesque tempor. Cras magna lectus, convallis in sapien venenatis, auctor hendrerit erat. Cras luctus mi in tortor molestie convallis. Sed eu tincidunt neque, sed ornare arcu."
+
+## Open Source section
+[params.portfolio]
+     enable = true
+ title = "Open Source"
+ subtitle = "Lorem ipsum dolor sit amet consectetur."
+ description = "Vestibulum quis mattis metus. Nunc egestas lorem sit amet nisi aliquet mollis. Cras maximus tellus et tempus convallis. Sed ac lectus eu elit maximus blandit. Quisque pretium tellus et enim egestas, a hendrerit urna bibendum. Ut sollicitudin arcu non mi malesuada, sed maximus lectus interdum. Sed nibh turpis, scelerisque et ex et, faucibus vestibulum quam. Vestibulum ut pellentesque enim. Duis id dolor eget neque pharetra pellentesque. Nullam tristique, libero in imperdiet sodales, dolor ipsum ultrices metus, vel dictum sapien tellus vitae lectus. Ut lorem augue, pulvinar non tincidunt vel, varius ac mi. Nunc id efficitur nisl. Ut non sagittis magna. Suspendisse aliquet commodo leo vel venenatis. Suspendisse potenti. Quisque vestibulum nulla a mauris rutrum malesuada."
+
+ ## Blog link
+ [params.contact]
+      enable = true
+  title = "Blog"
+  subtitle = "Lorem ipsum dolor sit amet consectetur."
