@@ -5,7 +5,7 @@ date = "2016-04-27T02:21:00+05:30"
 description = "description"
 draft = false
 tags = ["tag this"]
-title = "Here's a post on the Cotiviti Labs blog. And if the title were really long, this is what it would look like if it broke across lines."
+title = "Cotiviti Labs post with long headline breaking over several lines"
 
 +++
 
