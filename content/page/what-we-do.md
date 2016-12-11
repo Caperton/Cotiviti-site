@@ -2,6 +2,7 @@
 date = "2016-04-27T02:21:00+05:30"
 draft = false
 title = "What We Do"
+type = "page"
 
 +++
 

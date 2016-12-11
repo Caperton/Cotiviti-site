@@ -1,10 +1,11 @@
-baseurl = "localhost:1313"
+baseurl = "http://localhost:1313/"
 languageCode = "en-us"
 title = "Cotiviti Labs"
 
 [permalinks]
-  post = "/:year/:month/:slug/"
-  page = "/:slug"
+  post = "blog/:slug/"
+  page = ":slug"
+  blog = ":slug"
 
 [taxonomies]
   tag = "tags"
@@ -18,17 +19,17 @@ title = "Cotiviti Labs"
 [[menu.header]]
   name = "Who We Are"
   weight = 1
-  url = "/"
+  url = "/#about"
 
 [[menu.header]]
   name = "What We Do"
   weight = 2
-  url = "/what-we-do/"
+  url = "/#work"
 
 [[menu.header]]
   name = "Open Source"
   weight = 3
-  url = "/open-source/"
+  url = "/#projects"
 
 [[menu.header]]
   name = "Blog"
@@ -39,32 +40,32 @@ title = "Cotiviti Labs"
 [[menu.footer]]
   name = "Who Is Cotiviti?"
   weight = 1
-  url = "/cotiviti/"
+  url = "/who-is-cotiviti"
 
 [[menu.footer]]
   name = "Careers"
   weight = 2
-  url = "/careers/"
+  url = ""
 
 [[menu.footer]]
   name = "Contact Us"
   weight = 3
-  url = "/contact/"
+  url = "/contact-us"
 
 [[menu.footer]]
   name = "Site Map"
   weight = 3
-  url = "/site-map/"
+  url = "/site-map"
 
 ## Navigation
 [params.navigation]
   brand = "Cotiviti Labs"
   about = "Who We Are"
   work = "What We Do"
-  portfolio = "Open Source"
+  projects = "Open Source"
 
   [[menu.postpend]]
-   url = "http://gohugo.io"
+   url = "/blog/"
    name = "Blog"
    weight = 4
 
@@ -78,17 +79,17 @@ title = "Cotiviti Labs"
 [params.products]
       enable = true
 
-  [[params.products.item]]
+  [[params.product.item]]
     img = "Deliver8r.png"
     name = "Semiote"
     description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed sagittis orci, nec ullamcorper arcu. Nulla facilisi. Aliquam non est varius diam porta malesuada nec et lorem. Sed porta a risus sit amet ornare. Nulla conv allis a nisi ac dignissim. Vivamus risus augue,luctus eget scelerisque sit amet, dapibus sed nulla."
 
-  [[params.products.item]]
+  [[params.product.item]]
     img = "Meredith.png"
     name = "Meredith"
     description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed sagittis orci, nec ullamcorper arcu. Nulla facilisi. Aliquam non est varius diam porta malesuada nec et lorem. Sed porta a risus sit amet ornare. Nulla conv allis a nisi ac dignissim. Vivamus risus augue,luctus eget scelerisque sit amet, dapibus sed nulla."
 
-  [[params.products.item]]
+  [[params.product.item]]
     img = "clean-fuel.png"
     name = "Clean Fuel"
     description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed sagittis orci, nec ullamcorper arcu. Nulla facilisi. Aliquam non est varius diam porta malesuada nec et lorem. Sed porta a risus sit amet ornare. Nulla conv allis a nisi ac dignissim. Vivamus risus augue,luctus eget scelerisque sit amet, dapibus sed nulla."
@@ -122,7 +123,7 @@ title = "Cotiviti Labs"
 
 
 ## Open Source section
-[params.portfolio]
+[params.projects]
      enable = true
  title = "Open Source"
  subtitle = "Lorem ipsum dolor sit amet consectetur."
@@ -152,16 +153,16 @@ title = "Cotiviti Labs"
 
      		[[params.footer.quicklinks]]
      			text = "Who Is Cotiviti?"
-     			link = "#"
+     			link = "who-is-cotiviti"
 
      		[[params.footer.quicklinks]]
      			text = "Careers"
-     			link = "#"
+     			link = "http://www.cotiviti.com/careers"
 
         [[params.footer.quicklinks]]
      			text = "Contact Us"
-     			link = "#"
+     			link = "contact-us"
 
         [[params.footer.quicklinks]]
           text = "Site Map"
-          link = "#"
+          link = "site-map"

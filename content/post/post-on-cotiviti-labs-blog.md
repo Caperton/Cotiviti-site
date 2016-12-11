@@ -5,6 +5,7 @@ date = "2016-04-29T02:21:00+05:30"
 description = "description"
 draft = false
 tags = ["tag this"]
+type = "post"
 title = "Post on Cotiviti Labs blog"
 
 +++

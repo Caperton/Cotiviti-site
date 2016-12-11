@@ -5,6 +5,7 @@ date = "2016-04-27T02:21:00+05:30"
 description = "description"
 draft = false
 tags = ["tag this"]
+type = "post"
 title = "Cotiviti Labs post with long headline breaking over several lines"
 
 +++
